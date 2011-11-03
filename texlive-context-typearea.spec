@@ -1,3 +1,9 @@
+# revision 23167
+# category ConTeXt
+# catalog-ctan /macros/context/contrib/context-typearea
+# catalog-date 2008-08-18 23:54:09 +0200
+# catalog-license gpl
+# catalog-version undef
 Name:		texlive-context-typearea
 Version:	20080818
 Release:	1
@@ -44,6 +50,7 @@ as the LaTeX package typearea does.
 %{_texmfdistdir}/tex/context/third/typearea/t-typearea.tex
 %doc %{_texmfdistdir}/doc/context/third/typearea/typearea-demo.pdf
 %doc %{_texmfdistdir}/doc/context/third/typearea/typearea-doc.pdf
+%doc %{_tlpkgobjdir}/*.tlpobj
 
 #-----------------------------------------------------------------------
 %prep
@@ -54,3 +61,5 @@ as the LaTeX package typearea does.
 %install
 mkdir -p %{buildroot}%{_texmfdistdir}
 cp -fpar tex doc %{buildroot}%{_texmfdistdir}
+mkdir -p %{buildroot}%{_tlpkgobjdir}
+cp -fpa tlpkg/tlpobj/*.tlpobj %{buildroot}%{_tlpkgobjdir}
