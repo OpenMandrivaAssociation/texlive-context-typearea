@@ -6,7 +6,7 @@
 # catalog-version undef
 Name:		texlive-context-typearea
 Version:	20080818
-Release:	6
+Release:	7
 Summary:	Something like Koma-Script typearea
 Group:		Publishing
 URL:		http://www.ctan.org/tex-archive/macros/context/contrib/context-typearea
