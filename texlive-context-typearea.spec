@@ -5,8 +5,8 @@
 # catalog-license gpl
 # catalog-version undef
 Name:		texlive-context-typearea
-Version:	20080818
-Release:	10
+Version:	20170414
+Release:	1
 Summary:	Something like Koma-Script typearea
 Group:		Publishing
 URL:		http://www.ctan.org/tex-archive/macros/context/contrib/context-typearea
