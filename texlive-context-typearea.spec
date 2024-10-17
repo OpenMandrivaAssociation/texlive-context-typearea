@@ -3,7 +3,7 @@ Version:	47085
 Release:	2
 Summary:	Something like Koma-Script typearea
 Group:		Publishing
-URL:		http://www.ctan.org/tex-archive/macros/context/contrib/context-typearea
+URL:		https://www.ctan.org/tex-archive/macros/context/contrib/context-typearea
 License:	GPL
 Source0:	http://mirrors.ctan.org/systems/texlive/tlnet/archive/context-typearea.r%{version}.tar.xz
 Source1:	http://mirrors.ctan.org/systems/texlive/tlnet/archive/context-typearea.doc.r%{version}.tar.xz
